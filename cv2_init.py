@@ -1,7 +1,7 @@
 import cv2
 
 def cv2_init(frame_width, frame_height):
-  cap = cv2.VideoCapture(1)
+  cap = cv2.VideoCapture(-1)
   # 0 : default為筆電的鏡頭
   # 1 : USBcamera2
   # 2 ：USBcamera3 以此類推

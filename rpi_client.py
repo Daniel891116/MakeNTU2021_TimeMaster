@@ -13,8 +13,8 @@ import time
 cap = cv2_init(224, 224)
 
 #set models and labels path
-model_path = "models_and_labels./model3.tflite"
-label_path = "models_and_labels./labels3.txt"
+model_path = "models_and_labels/model3.tflite"
+label_path = "models_and_labels/labels3.txt"
 
 # Read class labels.
 labels = load_labels(label_path)
